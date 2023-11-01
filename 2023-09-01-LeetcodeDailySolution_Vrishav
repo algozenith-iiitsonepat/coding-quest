@@ -1,0 +1,34 @@
+class Solution {
+public:
+    int x=-1,c=0,c1=0;
+    vector<int> ans;
+    void inorder(TreeNode* root){
+        if(root){
+            inorder(root->left);
+            if(root->val == x){
+                c++;
+            }else{
+                if(c>c1){
+                    ans.clear();
+                    ans.push_back(x);
+                    c1=c;
+                }else if(c1 == c){
+                    ans.push_back(x);
+                }
+                x=root->val;
+                c=1;
+            }
+            inorder(root->right);
+        }
+    }
+    vector<int> findMode(TreeNode* root) {
+        inorder(root);
+        if(c>c1){
+            ans.clear();
+            ans.push_back(x);
+        }else if(c==c1){
+            ans.push_back(x);
+        }
+        return ans;
+    }
+};
