@@ -40,5 +40,3 @@ Connect with us to stay updated and join the coding discussions:
 ## 🌐 About LeetCode
 
 LeetCode is a platform for learning and improving coding skills. Learn more about LeetCode [here](https://leetcode.com/).
-
-Happy Coding! 🌟💻🚀
