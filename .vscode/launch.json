@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Prashant/Desktop/IIIT Sonepat/Algozenith/coding-quest",
-      "program": "c:/Users/Prashant/Desktop/IIIT Sonepat/Algozenith/coding-quest/build/Debug/outDebug",
+      "cwd": ".",
+      "program": "build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
